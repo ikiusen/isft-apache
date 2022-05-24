@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web:
+    container_name: isft-apache
+    build: ./image_apache
+    restart: always
+    tty: true
+    ports:
+      - 9010:80
+    volumes:
+      - ./src:/usr/local/apache2/htdocs
+    
