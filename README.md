@@ -5,7 +5,7 @@ To start the image and setting up Bibliotech to run:
 
     1. `docker-compose up -d --remove-orphans`
     2. `docker exec -it isft-apache /bin/bash`
-    3. Run the following bash script `./build-bibliotech.sh`
+    3. Run the following shell script `./build-bibliotech.sh`
 
 To access the server via browser: 
 
@@ -17,4 +17,4 @@ If any configuration must be changed, you have to take down the docker image wit
 
 # Changelog
 
-26/05/2022: Added [Bibliotech](https://github.com/gabrielinuz/bibliotech) as submodule and added a bash script for ease of setting up.
+26/05/2022: Added [Bibliotech](https://github.com/gabrielinuz/bibliotech) as submodule and added a shell script for ease of setting up.
